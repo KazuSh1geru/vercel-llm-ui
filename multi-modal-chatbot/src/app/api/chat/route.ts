@@ -6,7 +6,7 @@ export const maxDuration = 30;
 
 /* 
 * messages: 会話の履歴
-* 会話作成のapi endpointをapp/api/postに設置.
+* 会話作成のapi endpointをapp/api/chat/route.tsに設置.
 */
 
 export async function POST(req: Request) {
